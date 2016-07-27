@@ -1,7 +1,7 @@
 from django.conf import settings
 
 
-def map_key():
+def googlemap_key(request):
     return {
-        "googlemap_key": settings.MAP_KEY,
+        "googlemap_key": settings.GOOGLEMAP_KEY,
     }
