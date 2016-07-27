@@ -4,6 +4,7 @@ li.gmap {
     -webkit-perspective: 1000;
     -moz-perspective: 1000;
     perspective: 1000;
+    height: 300px;
 }
 
 li.gmap img {
